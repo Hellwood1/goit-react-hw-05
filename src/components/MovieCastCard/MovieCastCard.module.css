@@ -1,27 +1,21 @@
 .card {
   display: flex;
+  flex-direction: column;
   gap: 20px;
+  padding: 20px;
   background-color: white;
-  padding: 40px;
-  border-radius: 30px;
-  max-height: 300px;
-  overflow: auto;
+  border-radius: 15px;
+  height: 350px;
 }
 
 .img {
-  width: 70px;
-  height: 70px;
+  height: 200px;
+  width: 150px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 15px;
 }
 
-.card > div {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.wrap {
+.card div {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -32,6 +26,6 @@
   font-size: 18px;
 }
 
-.review {
+.character {
   font-size: 14px;
 }
